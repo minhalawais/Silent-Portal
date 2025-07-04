@@ -77,7 +77,7 @@ silent-portal/
 └── styles/                 # CSS styles
 └── globals.css         # Global CSS styles
 
-
+---
 ## Contributing
 
 We welcome contributions to Silent Portal! If you have suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
