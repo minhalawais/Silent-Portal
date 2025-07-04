@@ -47,6 +47,7 @@ Welcome to Silent Portal, a web application designed to provide a secure and ano
 
 ## Project Structure
 
+```bash
 silent-portal/
 ├── components.json         # Configuration for UI components
 ├── next.config.mjs         # Next.js configuration
@@ -64,9 +65,9 @@ silent-portal/
 │   └── portal/             # Portal page
 │       ├── loading.tsx     # Loading component
 │       └── page.tsx
-├── components/           # Reusable React components
+├── components/             # Reusable React components
 │   ├── theme-provider.tsx  # Theme provider component
-│   └── ui/               # UI components built with Radix UI
+│   └── ui/                 # UI components built with Radix UI
 │       ├── ...             # Various UI components
 ├── hooks/                  # Custom React hooks
 │   ├── use-mobile.tsx      # Hook for detecting mobile devices
@@ -75,9 +76,8 @@ silent-portal/
 │   └── utils.ts            # Utility functions
 ├── public/                 # Public assets
 └── styles/                 # CSS styles
-└── globals.css         # Global CSS styles
-
----
+    └── globals.css         # Global CSS styles
+```
 ## Contributing
 
 We welcome contributions to Silent Portal! If you have suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
